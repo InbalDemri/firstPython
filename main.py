@@ -1,12 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import random2
 
 
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def gen_random_num(num):
+    rand = random2.random()
+    if rand < 0.5:
+        print("even")
+    else:
+        print("odd")
 
 
 if __name__ == '__main__':
-    print_hi('Inbal')
+    gen_random_num(10)
